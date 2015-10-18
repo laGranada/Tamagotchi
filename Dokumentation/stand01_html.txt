@@ -1,3 +1,23 @@
 Unsere Nutzeroberfläche soll aus folgenden Bestandteilen bestehen: 
-Startseite: Eingabefeld für den Namen, Geschlechterauswahl und Startbutton
+Startseite: 
+-Eingabefeld für den Namen
+-Geschlechterauswahl mit einer Vorschau 
+-Startbutton
+  Begründung: 
+  Wir haben uns für eine Startseite entschieden, damit es einen sanften einstieg in das spiel gibt.
+
+Hauptseite:
+-Gesundheitsanzeige: Bestehend aus einer Hunger, Spaß und schlafanzeige, die dauerhaft auf der Hauptseite ist.
+  Begründung: Damit die Bedürfnisse des Tamagotchis erkennt.
+-Eine dauerhafte Namensanzeige
+  Begründung: Damit man in zukunft auch mit anderen Tamagotchis in kontakt treten kann
+-Unterteilt in 3 Räume:
+  -im Schlafzimmer gibt es ein Schlafbutton
+  -in der Küche gibt es ein Fütterbutton mit einem Dropdown menü
+  -im Spielzimmer gibt es einen Spielbutton mit einem Dropdown memü
+  Begründung: Damit nicht alles auf einer seite ist und es übersichtlich bleibt 
+  
+
+
+
 
