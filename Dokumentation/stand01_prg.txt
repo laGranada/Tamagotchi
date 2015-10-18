@@ -1,1 +1,22 @@
-Test Test lalalal
+Unser Tamagotchi soll folgende Funktionalitäten beinhalten:
+
+Startseite:
+- der Name aus dem Eingabefeld soll übernommen werden und später auf der Hauptseite angezeigt werden.
+- der User kann das Geschlecht auswählen und dementsprechend ändert sich das Aussehen des Tamagotchis.
+- per Klick auf den Startbutton wird der User auf die Hauptseite weitergeleitet.
+
+Hauptseite:
+- Die Gesundheitsanzeigen (aufgeteilt in "Hunger", "Spaß" und "Schlaf") sollen langsam sinken.
+
+  Raum Küche:
+  - Nachdem der User das jeweilige Essen ausgewählt hat, soll die "Hunger"-Anzeige steigen.
+    Beim Essen sinkt die "Schlaf"-Anzeige schneller.
+  
+  Raum Spielzimmer:
+  - Nachdem der User das jeweilige Spielzeug ausgewählt hat, soll die "Spaß"-Anzeige steigen.
+    Beim Essen sinkt die "Schlaf"-Anzeige schneller.
+  
+  Raum Schlafzimmer:
+  - Nachdem der User den "Schlafen"-Button ausgewählt hat, soll die "Schlaf"-Anzeige langsam steigen.
+    Beim Schlafen sinkt die "Hunger"- und "Spaß"-Anzeige schneller.
+  
