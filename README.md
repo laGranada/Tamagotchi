@@ -1,3 +1,0 @@
-# Tamagotchi
-
-Projektpartnerin: Amelie Behrendt
