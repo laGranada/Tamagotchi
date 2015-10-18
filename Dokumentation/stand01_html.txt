@@ -1,1 +1,3 @@
-test
+Unsere Nutzeroberfläche soll aus folgenden Bestandteilen bestehen: 
+Startseite: Eingabefeld für den Namen, Geschlechterauswahl und Startbutton
+
