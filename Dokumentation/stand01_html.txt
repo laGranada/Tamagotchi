@@ -7,8 +7,8 @@ Startseite:
   Wir haben uns für eine Startseite entschieden, damit es einen sanften einstieg in das spiel gibt.
 
 Hauptseite:
--Gesundheitsanzeige: Bestehend aus einer Hunger, Spaß und schlafanzeige, die dauerhaft auf der Hauptseite ist.
-  Begründung: Damit die Bedürfnisse des Tamagotchis erkennt.
+-Anzeige: Bestehend aus einer Hunger, Spaß, Schlaf und Gesundheitsanzeige, die dauerhaft auf der Hauptseite ist.
+  Begründung: Damit man die Bedürfnisse des Tamagotchis erkennt.
 -Eine dauerhafte Namensanzeige
   Begründung: Damit man in zukunft auch mit anderen Tamagotchis in kontakt treten kann
 -Unterteilt in 3 Räume:
