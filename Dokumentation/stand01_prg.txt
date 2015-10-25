@@ -6,7 +6,7 @@ Startseite:
 - per Klick auf den Startbutton wird der User auf die Hauptseite weitergeleitet.
 
 Hauptseite:
-- Die Gesundheitsanzeigen (aufgeteilt in "Hunger", "Spaß" und "Schlaf") sollen langsam sinken.
+- Die Anzeigen (aufgeteilt in "Hunger", "Spaß", "Schlaf" und "Gesundheit") sollen langsam sinken.
 
   Raum Küche:
   - Nachdem der User das jeweilige Essen ausgewählt hat, soll die "Hunger"-Anzeige steigen.
@@ -19,4 +19,6 @@ Hauptseite:
   Raum Schlafzimmer:
   - Nachdem der User den "Schlafen"-Button ausgewählt hat, soll die "Schlaf"-Anzeige langsam steigen.
     Beim Schlafen sinkt die "Hunger"- und "Spaß"-Anzeige schneller.
+    
+  Die Gesundheitsanzeige sinkt, wenn die "Hunger"-, "Spaß"- und "Schlaf"anzeigen ziemlich niedrig sind.
   
