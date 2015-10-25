@@ -1,1 +1,8 @@
-ll
+25.10.2015:
+
+- Wir haben uns für das Aussehen der Nutzeroberfläche entschieden.
+- Das Design unseres Tamagotchis steht fest.
+- In der letzten Woche haben wir beide uns jeweils in HTML oder PHP eingelesen, da wir beide noch keine Erfahrung darin haben.
+
+Unser Ziele bis zur nächsten Woche:
+- HTML und PHP weiter lernen, sodass wir mit dem Programmieren loslegen können.
