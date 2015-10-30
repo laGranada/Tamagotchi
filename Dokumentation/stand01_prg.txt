@@ -2,23 +2,29 @@ Unser Tamagotchi soll folgende Funktionalitäten beinhalten:
 
 Startseite:
 - der Name aus dem Eingabefeld soll übernommen werden und später auf der Hauptseite angezeigt werden.
+  (durch Namensvariable mit Eingabefeld)
 - der User kann das Geschlecht auswählen und dementsprechend ändert sich das Aussehen des Tamagotchis.
-- per Klick auf den Startbutton wird der User auf die Hauptseite weitergeleitet.
+  (durch switch-case oder if-else)
 
 Hauptseite:
 - Die Anzeigen (aufgeteilt in "Hunger", "Spaß", "Schlaf" und "Gesundheit") sollen langsam sinken.
+  (dadurch muss ein Timer eingebaut werden, die Anzeigen müssen numerisch gespeichert werden und
+  graphisch ausgegeben werden)
 
   Raum Küche:
   - Nachdem der User das jeweilige Essen ausgewählt hat, soll die "Hunger"-Anzeige steigen.
     Beim Essen sinkt die "Schlaf"-Anzeige schneller.
+    (durch switch-case oder if-else)
   
   Raum Spielzimmer:
   - Nachdem der User das jeweilige Spielzeug ausgewählt hat, soll die "Spaß"-Anzeige steigen.
     Beim Essen sinkt die "Schlaf"-Anzeige schneller.
+    (durch switch-case oder if-else)
   
   Raum Schlafzimmer:
   - Nachdem der User den "Schlafen"-Button ausgewählt hat, soll die "Schlaf"-Anzeige langsam steigen.
     Beim Schlafen sinkt die "Hunger"- und "Spaß"-Anzeige schneller.
+    (durch switch-case oder if-else)
     
   Die Gesundheitsanzeige sinkt, wenn die "Hunger"-, "Spaß"- und "Schlaf"anzeigen ziemlich niedrig sind.
-  
+  (durch switch-case oder if-else)
