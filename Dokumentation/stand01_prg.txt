@@ -8,7 +8,7 @@ Startseite:
 
 Hauptseite:
 - Die Anzeigen (aufgeteilt in "Hunger", "Spaß", "Schlaf" und "Gesundheit") sollen langsam sinken.
-  (durch switch-case oder if-else)
+  (dadurch muss ein Timer eingebaut werden, der beispielsweise bei jeder Variablen nach 30 Sekunden den Wert -1 rechnet)
 
   Raum Küche:
   - Nachdem der User das jeweilige Essen ausgewählt hat, soll die "Hunger"-Anzeige steigen.
