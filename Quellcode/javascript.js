@@ -4,7 +4,7 @@
 	var fun = 100;
 
 	// Klick auf Sleep Button, füllt die Energie wieder auf
-	function sleep() {
+	var goToSleep = function() {
 		var sleep = 100;
 		alert("Energy is full!");
 		}
