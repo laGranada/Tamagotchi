@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left {
+}
+#left {
+}
+#right {
+}
+#button {
+}
+#img {
+	margin-left: 35%;
+}
+#healthBar {
+	position: absolute;
+	top: 10px;
+	
+}
+#funBar {
+	position: absolute;
+	top: 30px;
+}
+#eatBar {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+}
+#sleepBar {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
