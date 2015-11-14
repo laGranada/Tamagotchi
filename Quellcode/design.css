@@ -8,20 +8,47 @@
 #img {
 	margin-left: 35%;
 }
+
 #healthBar {
 	position: absolute;
 	top: 10px;
-	
+	left: 30px;
 }
-#funBar {
+
+#imghealth{
+	position: absolute;
+	top: 10px;
+}
+
+#imgfun{
 	position: absolute;
 	top: 30px;
 }
+
+#funBar {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+#imgeat{
+	position: absolute;
+	top: 10px;
+	right: 215px;
+}
+
 #foodBar {
 	position: absolute;
 	top: 10px;
 	right: 50px;
 }
+
+#imgsleep{
+	position: absolute;
+	top: 30px;
+	right: 215px;
+}
+
 #sleepBar {
 	position: absolute;
 	top: 30px;
