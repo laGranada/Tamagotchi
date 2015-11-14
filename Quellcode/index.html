@@ -5,30 +5,33 @@
 <head>
 	<title>Tamagotchi</title>
 	<script language="javascript" type="text/javascript" src="javascript.js"></script>
+	<link href="design-index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 	
+    <h1 id="h1">Name: </h1>
+    
 	<form oninput="name.value = tamaname.value">
 
-		Tamagotchi name:<br>
-		<input type="text" id="tamaname" size="30"><br>
+		<input type="text" id="tamaname" size="30">
 		
-		<p>
-			<input type="submit" value="absenden" />
-		</p>
-		
-		Your Tamagotchi name:<br>
-		<output name="name"></output>
-
+		<input type="submit" id="submit" value="submit" />
+        
 	</form> 
 	
-	<img src="tamagotchi-normal.jpg" width="186.75" height="240.5"/> 
-	<img src="tamagotchi-normal-lash.jpg" width="186.75" height="240.5"/> 
-	<br>
-		<a href="playground-tamagotchi.html">Mit diesem Tamagotchi spielen </a>
-		 oder 
-		<a href="playground-tamagotchi-lash.html"> Mit diesem spielen</a>
+	<h2 id="h2">Choose your Tamagotchi: </h2>
+	
+	<img src="normal.png" width="386.75" height="480.5" id="norm"/> 
+	<img src="normal-lash.png" width="386.75" height="480.5" id="lash"/> 
+	
+	<form action="playground-tamagotchi.html" id="left">
+		<input type="submit" value="Play">
+	</form>
+	
+	<form action="playground-tamagotchi-lash.html" id="right">
+		<input type="submit" value="Play">
+	</form>
 
 </body>
 

@@ -1,0 +1,47 @@
+#h1 {
+	position: absolute;
+	left: 580px;
+	top: 120px;
+}
+
+#tamaname {
+	position: absolute;
+	left: 680px;
+	top: 150px;
+}
+
+#submit {
+	position: absolute;
+	left: 900px;
+	top: 150px;
+}
+
+#h2 {
+	position: absolute;
+	left: 650px;
+	top: 450px;
+}
+
+#norm {
+	position: absolute;
+	left: 200px;
+	top: 150px;
+}
+
+#lash {
+	position: absolute;
+	left: 950px;
+	top: 150px;
+}
+
+#left {
+	position: absolute;
+	left: 360px;
+	top: 600px;
+}
+
+#right {
+	position: absolute;
+	right: 360px;
+	top: 600px;
+}
