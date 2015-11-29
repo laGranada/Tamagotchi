@@ -4,7 +4,7 @@ Startseite:
 - der Name aus dem Eingabefeld soll übernommen werden und später auf der Hauptseite angezeigt werden.
   (durch Namensvariable mit Eingabefeld)
 - der User kann das Geschlecht auswählen und dementsprechend ändert sich das Aussehen des Tamagotchis.
-  (durch switch-case oder if-else)
+  (durch HTML gelöst)
 
 Hauptseite:
 - Die Anzeigen (aufgeteilt in "Hunger", "Spaß", "Schlaf" und "Gesundheit") sollen langsam sinken.
@@ -13,28 +13,38 @@ Hauptseite:
   Raum Küche:
   - Nachdem der User das jeweilige Essen ausgewählt hat, soll die "Hunger"-Anzeige steigen.
     Beim Essen sinkt die "Schlaf"-Anzeige schneller.
-    (durch switch-case oder if-else)
+    (durch ein onclick-Event auf die jeweiligen Button/auf das jeweilige Auswahlfeld)
   
   Raum Spielzimmer:
   - Nachdem der User das jeweilige Spielzeug ausgewählt hat, soll die "Spaß"-Anzeige steigen.
     Beim Essen sinkt die "Schlaf"-Anzeige schneller.
-    (durch switch-case oder if-else)
+    (durch ein onclick-Event auf die jeweiligen Button/auf das jeweilige Auswahlfeld)
   
   Raum Schlafzimmer:
   - Nachdem der User den "Schlafen"-Button ausgewählt hat, soll die "Schlaf"-Anzeige langsam steigen.
     Beim Schlafen sinkt die "Hunger"- und "Spaß"-Anzeige schneller.
-    (durch switch-case oder if-else)
+    (durch ein onclick-Event auf die jeweiligen Button/auf das jeweilige Auswahlfeld)
     
-  Die Gesundheitsanzeige sinkt, wenn die "Hunger"-, "Spaß"- und "Schlaf"anzeigen ziemlich niedrig sind.
-  (durch switch-case oder if-else)
+  Die Gesundheitsanzeige sinkt, wenn die "Hunger"-, "Spaß"- und "Schlaf"-Anzeigen ziemlich niedrig sind.
   
   18.11.2015:
-  Eine Funktion eingefügt, die die Progress Balken zum Sinken bringen (derzeit zu Probezwecken noch relativ schnell.. Später sollen die Balken langsamer sinken).
+  Eine Funktion eingefügt, die die Progress Balken zum Sinken bringen (derzeit zu Probezwecken noch
+  relativ schnell.. Später sollen die Balken langsamer sinken).
   Dabei gibt es noch folgende Probleme:
-	1. Die Progress Balken werden auf jeder Seite neu geladen, die Werte werden nicht von der vorherigen Seite übernommen.
-		Lösung: Vllt. Progressbalken auslagern als Frame und die Räume in einem extra Frame laden lassen?
-				Allerdings sind Frames veraltet. Gibt es da eine andere Möglichkeit, ohne dass die Seite komplett aktualisiert wird? -> recherchieren
+	1. Die Progress Balken werden auf jeder Seite neu geladen, die Werte werden nicht von der 
+	vorherigen Seite übernommen.
+		Lösungsvorschlag: Vllt. Progressbalken auslagern als Frame und die 
+		Räume in einem extra Frame laden lassen? (Allerdings sind Frames veraltet.
+		Gibt es da eine andere Möglichkeit, ohne dass die Seite komplett aktualisiert
+		wird? -> recherchieren)
+		Falls es sonst keine andere Lösung gibt, müssen wir die Räume auflösen und alle 
+		Räume auf eine Seite unterbringen bzw. die Räume auflösen.
 				
-	2. Die Health-Bar soll erst sinken, wenn der Essens-Balken, der Schlaf-Balken und der Spaß-Balken einen niedrigeren Wert als 50 haben. Aktuell greifen die Werte nicht aufeinander zu.
+	2. Die Health-Bar soll erst sinken, wenn der Essens-Balken, der Schlaf-Balken und 
+	der Spaß-Balken einen niedrigeren Wert als 50 haben. Aktuell greifen die Werte nicht
+	aufeinander zu.
 	
 	3. Wenn ein Button (z.B. Füttern) geklickt wird, soll der jeweilige Balken wieder steigen.
+  
+  29.11.2015:
+  Krankheitsbedingt konnte ich leider in der letzten Woche nicht am Projekt arbeiten.
