@@ -5,7 +5,7 @@
 <head>
 	<title>Tamagotchi - Bedroom</title>
 	<script language="javascript" type="text/javascript" src="javascript.js"></script>
-	<link href="design-bedroom.css" type="text/css" rel="stylesheet">
+	<link href="design-room.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,44 +23,8 @@
 	</form>
 	
 	<form id="button">
-	<input type="button" class="size" onclick="goToSleep()" value="   sleep   ">
+	<input type="button" class="size" value="   sleep   " onclick="goToSleep()">
 	</form>
-	
-	<img src="heart-beat-icon.png" width="18" height="18" id="imghealth"/> 
-	<!--health-->
-	<progress id="healthBar" value="100" max="100"></progress>
-	
-	<img src="Soccer-icon.png" width="18" height="18" id="imgfun"/> 
-	<!--fun-->
-	<progress id="funBar" value="100" max="100"></progress>
-	
-	<img src="pizza-icon.png" width="18" height="18" id="imgeat"/>
-	<!--eat-->
-	<progress id="foodBar" value="100" max="100"></progress>
-	
-	<img src="Apps-sleep-icon.png" width="18" height="18" id="imgsleep"/>
-	<!--sleep-->
-	<progress id="sleepBar" value="100" max="100"></progress>
-	
-	<script type="text/javascript" language="javascript">
-	
-	// Funktionsaufruf: Fun-Bar sinkt
-	var fun = 100;
-	progressFunBar(fun);
-	
-	// Funktionsaufruf: Food-Bar sinkt
-	var food = 100;
-	progressFoodBar(food);
-	
-	// Funktionsaufruf: Sleep-Bar sinkt
-	var sleep = 100;
-	progressSleepBar(sleep); 
-	
-	// Funktionsaufruf: Health-Bar sinkt
-	var health = 100;
-	progressHealthBar(health); 	
-	
-</script> 
 	
 </body>
 
