@@ -1,11 +1,9 @@
-/*	// Klick auf Sleep Button, füllt die Energie wieder auf
-	var goToSleep = function() {
-		var sleep = 100;
-		alert("Energy is full!");
-		} */
-
+	var startFunBar = true;
+	
 	// Sinken der Fun-Bar
-	function progressFunBar(a) {
+	
+	  function progressFunBar(a) {
+		if (startFunBar == true) {
 		var bar = document.getElementById('funBar');
 		bar.value = a;
 		a--;
@@ -13,6 +11,7 @@
 		if(a == 0){
 	  	  bar.value = 0;
 		clearTimeout(sink);
+		}
 		}
 	}
 	
@@ -40,7 +39,7 @@
 		}
 	}
 	
-		// Sinken der Health-Bar
+	// Sinken der Health-Bar
 	function progressHealthBar(a) {
 		var bar = document.getElementById('healthBar');
 		bar.value = a;
@@ -50,4 +49,23 @@
 	  	  bar.value = 0;
 		clearTimeout(sink);
 		}
+	}
+
+	// playground: Spielauswahl füllt die Fun-Bar wieder auf
+	var letsPlay = function() {
+		startFunBar = false;
+		alert("Yeah! That was funny!");
+		// Hier muss die Food-Bar aufgefüllt werden
+	}
+	
+	// kitchen: Essensauswahl füllt die Food-Bar wieder auf
+	var eatSomething = function() {
+		alert("That was tasty!");
+		// Hier muss die Food-Bar aufgefüllt werden
+	}
+	
+	// bedroom: Sleep Button füllt die Energie wieder auf
+	var goToSleep = function() { 
+		alert("Energy is full!");
+		// Hier muss die Sleep-Bar wieder aufgefüllt werden
 	}

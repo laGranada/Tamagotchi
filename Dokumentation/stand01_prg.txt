@@ -1,3 +1,41 @@
+07.12.2015:
+  Ich habe mich für die Lösung mit den Frames entschieden, da es aktuell die einfachste 
+  Lösung für das Problem darstellt (ansonsten hätte ich mich noch in Cookies einlesen müssen).
+  
+  To Do:
+	- Die Health-Bar soll erst sinken, wenn der Essens-Balken, der Schlaf-Balken und 
+	der Spaß-Balken einen niedrigeren Wert als 50 haben. Aktuell greifen die Werte nicht
+	aufeinander zu.
+	
+	- Wenn ein Button (z.B. Füttern) geklickt wird, soll der jeweilige Balken wieder steigen.  
+	
+	- Animationen (sad, happy) einfügen
+	
+	- Namen speichern und beim Spiel anzeigen lassen (dabei überprüfen, ob ein Name ausgewählt 
+	wurde, ansonsten Fehlermeldung anzeigen lassen, falls das möglich ist)
+
+29.11.2015:
+  Krankheitsbedingt konnte ich leider in der letzten Woche nicht am Projekt arbeiten.
+
+18.11.2015:
+  Eine Funktion eingefügt, die die Progress Balken zum Sinken bringen (derzeit zu Probezwecken noch
+  relativ schnell.. Später sollen die Balken langsamer sinken).
+  Dabei gibt es noch folgende Probleme:
+	1. Die Progress Balken werden auf jeder Seite neu geladen, die Werte werden nicht von der 
+	vorherigen Seite übernommen.
+		Lösungsvorschlag: Vllt. Progressbalken auslagern als Frame und die 
+		Räume in einem extra Frame laden lassen? (Allerdings sind Frames veraltet.
+		Gibt es da eine andere Möglichkeit, ohne dass die Seite komplett aktualisiert
+		wird? -> recherchieren)
+		Falls es sonst keine andere Lösung gibt, müssen wir die Räume auflösen und alle 
+		Räume auf eine Seite unterbringen bzw. die Räume auflösen.
+				
+	2. Die Health-Bar soll erst sinken, wenn der Essens-Balken, der Schlaf-Balken und 
+	der Spaß-Balken einen niedrigeren Wert als 50 haben. Aktuell greifen die Werte nicht
+	aufeinander zu.
+	
+	3. Wenn ein Button (z.B. Füttern) geklickt wird, soll der jeweilige Balken wieder steigen.
+  
 Unser Tamagotchi soll folgende Funktionalitäten beinhalten:
 
 Startseite:
@@ -26,25 +64,3 @@ Hauptseite:
     (durch ein onclick-Event auf die jeweiligen Button/auf das jeweilige Auswahlfeld)
     
   Die Gesundheitsanzeige sinkt, wenn die "Hunger"-, "Spaß"- und "Schlaf"-Anzeigen ziemlich niedrig sind.
-  
-  18.11.2015:
-  Eine Funktion eingefügt, die die Progress Balken zum Sinken bringen (derzeit zu Probezwecken noch
-  relativ schnell.. Später sollen die Balken langsamer sinken).
-  Dabei gibt es noch folgende Probleme:
-	1. Die Progress Balken werden auf jeder Seite neu geladen, die Werte werden nicht von der 
-	vorherigen Seite übernommen.
-		Lösungsvorschlag: Vllt. Progressbalken auslagern als Frame und die 
-		Räume in einem extra Frame laden lassen? (Allerdings sind Frames veraltet.
-		Gibt es da eine andere Möglichkeit, ohne dass die Seite komplett aktualisiert
-		wird? -> recherchieren)
-		Falls es sonst keine andere Lösung gibt, müssen wir die Räume auflösen und alle 
-		Räume auf eine Seite unterbringen bzw. die Räume auflösen.
-				
-	2. Die Health-Bar soll erst sinken, wenn der Essens-Balken, der Schlaf-Balken und 
-	der Spaß-Balken einen niedrigeren Wert als 50 haben. Aktuell greifen die Werte nicht
-	aufeinander zu.
-	
-	3. Wenn ein Button (z.B. Füttern) geklickt wird, soll der jeweilige Balken wieder steigen.
-  
-  29.11.2015:
-  Krankheitsbedingt konnte ich leider in der letzten Woche nicht am Projekt arbeiten.

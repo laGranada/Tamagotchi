@@ -9,6 +9,11 @@
 	left: 600px;
 }
 
+#select {
+position: absolute;
+	top: 662px;
+	right: 300px;
+}
 #button {
 	position: absolute;
 	top: 654px;
