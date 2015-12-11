@@ -29,6 +29,17 @@
 		wird? -> recherchieren)
 		Falls es sonst keine andere Lösung gibt, müssen wir die Räume auflösen und alle 
 		Räume auf eine Seite unterbringen bzw. die Räume auflösen.
+		
+=== Feedback Alpers, Dez 11 ===
+
+Wie ich schon als Kommentar im HTML-Code eingetragen habe:
+
+Die einfachst Variante wäre die, bei der es nur ein HTML-Dokument gibt, dessen Inhalte je nach
+Bedarf ausgetauscht werden. (Einfachste Variante werden über den Umweg mit <?php include(...); ?>)
+
+Dann hätten Sie nur eine Seite und das Problem würde gar nicht erst auftreten.
+
+=== Feedback Alpers, Ende ===
 				
 	2. Die Health-Bar soll erst sinken, wenn der Essens-Balken, der Schlaf-Balken und 
 	der Spaß-Balken einen niedrigeren Wert als 50 haben. Aktuell greifen die Werte nicht
@@ -64,3 +75,15 @@ Hauptseite:
     (durch ein onclick-Event auf die jeweiligen Button/auf das jeweilige Auswahlfeld)
     
   Die Gesundheitsanzeige sinkt, wenn die "Hunger"-, "Spaß"- und "Schlaf"-Anzeigen ziemlich niedrig sind.
+  
+=== Feedback Alpers, Dez 11 ===
+
+(Beachten Sie bitte auch meinen Hinweis oben.)
+
+Das ist eine sehr gute Dokumentation, wobei hier die Dokumentation des Projektfortschritts leider nicht erkennbar ist.
+
+Grundsätzlich ein Tipp, wobei Sie den zumindest teilweise schon beherzigt haben:
+Mit HTML wird die Anzeige der Elemente realisiert, während Sie in JS steuern, wie diese Anzeigen sich ändern.
+Jeder neigt dazu, auch bei der Teamarbeit solche Grenzen zu ignorieren und alles selbst entwickeln zu wollen.
+
+=== Feedback Alpes, Ende ===

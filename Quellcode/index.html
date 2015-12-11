@@ -20,10 +20,38 @@
         
 	</form> 
 	
+	<!--
+	=== Feedback Alpers, Dez 11 ===
+	
+	Diese Verwendung des id-Attributs macht keinen Sinn.
+	
+	=== Feedback Alpers, Ende ===
+	-->
+	
 	<h2 id="h2">Choose your Tamagotchi: </h2>
 	
+	<!--
+	=== Feedback Alpers, Dez 11 ===
+	
+	Werfen Sie bitte nochmal einen Blick ins Kapitel zur Einbindung
+	von Bildern, Audio- und Video-Dateien in HTML 5. Sie haben
+	hier zwei wichtige Dinge vergessen.
+	
+	=== Feedback Alpers, Ende ===
+	-->
 	<img src="normal.png" width="386.75" height="480.5" id="norm"/> 
 	<img src="normal-lash.png" width="386.75" height="480.5" id="lash"/> 
+	
+	<!--
+	=== Feedback Alpers, Dez 11 ===
+	
+	Wenn Sie das action-Attribut eines Forumlars nutzen, dann muss dieses
+	als Wert eine ausführbare Datei erhalten.
+	
+	Hier wäre eine normaler Link passender.
+	
+	=== Feedback Alpers, Ende ===
+	-->
 	
 	<form action="index02.html" id="left">
 		<input type="submit" value="Play">
@@ -36,3 +64,17 @@
 </body>
 
 </html>
+
+<!--
+=== Feedback Alpers, Dez 11 ===
+
+Da sind zum Teil noch Varianten enthalten, die HTML 4.01 sind. Werfen Sie bitte nochmal
+einen Blick ins Skript um zu prüfen, was Sie für die Nutzung von JS in HTML 5 alles nicht
+machen müssen.
+
+Weiterhin sollten Sie auch bei einem derart kurzen Codeteil wie diesem die
+neuen Strukturcontainer nutzen, um so Browsern klar zu signalisieren, welcher Teil in welcher Strukturbene
+eingebunden ist.
+
+=== Feedback Alpers, Ende ===
+-->

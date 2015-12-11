@@ -17,7 +17,11 @@ Hauptseite:
   -im Spielzimmer gibt es einen Spielbutton mit einem Dropdown memü
   Begründung: Damit nicht alles auf einer seite ist und es übersichtlich bleibt 
   
+=== Feedback Alpers, Dez 11 ===
 
+Gute erste Dokumentation für einen Projektstart. Allerdings fehlt hier die Dokumentation seit dem Projektstart.
+
+=== Feedback Alpers, Ende ===
 
 
 
