@@ -4,28 +4,14 @@
 	
 	  function progressFunBar(a) {
 		if (startFunBar == true) {
-		var bar = document.getElementById('funBar');
-		bar.value = a;
-		a--;
-		
-		/*
-		* === Feedback Alpers, Dez 11 ===
-		* 
-		* Tabulatoren sind dafür da, um erkennbar zu machen, welche Teile des Programms
-		* zu einer Methode gehören.
-		*
-		* Indem Sie oben den Inhalt des if-Cases nicht eingerückt haben,
-		* sieht es aus, als wenn var bar = ... nicht Teil des (startFunBar == ...)-Falls wäre.
-		* Das gleiche gilt hier für var sink = ...: Hier wirkt es so, als wenn diese Zeile nicht zu
-		* progressFunBar() gehören würde.
-		*
-		* === Feedback Alpers, Ende ===
-		*/
+			var bar = document.getElementById('funBar');
+			bar.value = a;
+			a--;
 		
 	var sink = setTimeout("progressFunBar("+a+")",300);
 		if(a == 0){
-	  	  bar.value = 0;
-		clearTimeout(sink);
+	  		bar.value = 0;
+			clearTimeout(sink);
 		}
 		}
 	}
@@ -37,8 +23,8 @@
 		a--;
 	var sink = setTimeout("progressFoodBar("+a+")",300);
 		if(a == 0){
-	  	  bar.value = 0;
-		clearTimeout(sink);
+	  		bar.value = 0;
+			clearTimeout(sink);
 		}
 	}
 	
@@ -49,8 +35,8 @@
 		a--;
 	var sink = setTimeout("progressSleepBar("+a+")",300);
 		if(a == 0){
-	  	  bar.value = 0;
-		clearTimeout(sink);
+	  		bar.value = 0;
+			clearTimeout(sink);
 		}
 	}
 	
@@ -61,8 +47,8 @@
 		a--;
 	var sink = setTimeout("progressHealthBar("+a+")",300);
 		if(a == 0){
-	  	  bar.value = 0;
-		clearTimeout(sink);
+	  		bar.value = 0;
+			clearTimeout(sink);
 		}
 	}
 	
