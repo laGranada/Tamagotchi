@@ -1,3 +1,10 @@
+05.02.2016:
+  Ich habe gerade einige Möglichkeiten ausprobiert, die Progress Balken zum stoppen zu bringen.
+  Leider hat keine davon wie gewünscht funktioniert. Ab heute Abend bis nächste Woche Freitag bin 
+  ich im Urlaub, sodass ich leider nicht viel am Projekt arbeiten kann. Aber ab dem 13. will ich mich
+  nochmal intensiv damit beschäftigen. Evtl. werde ich dann erstmal ausprobieren, ob ich es ohne Balken
+  und nur mit Zahlen zum Laufen bekommen und das dann versuchen auf die Balken zu übertragen.
+
 13.01.2016:
   Aktuell komme ich leider nicht dazu an dem Projekt zu arbeiten, da ich mich um einige andere Abgaben
   kümmern muss sowie um die Klausuren.
