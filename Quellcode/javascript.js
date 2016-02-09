@@ -66,6 +66,14 @@
 	*
 	* === Feedback Alpers, Ende ===
 	*/
+	
+	/*
+	* === Feedback Alpers, Feb 9 ===
+	*
+	* Leider haben Sie den obigen Hinweis vom 11. Dezember noch nicht übernommen.
+	*
+	* === Feedback Alpers, Ende ===
+	*/
 
 	// playground: Spielauswahl füllt die Fun-Bar wieder auf
 	var letsPlay = function() {
