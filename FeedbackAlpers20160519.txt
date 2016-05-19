@@ -2,3 +2,5 @@ Wenn Sie an diesem Projekt weiterarbeiten wollen, pushen Sie bitte die neuen Inh
 
 HTML-Teil: Die letzte relevante Änderung habe ich am 8. Februar gesehen.
 JS/PHP-Teil: Die letzte relevante Änderung habe ich am 11. Dezember gesehen.
+
+Update: Bitte beachten Sie, dass Sie sich Anfang des Semesters entschieden haben, dieses Projekt fortzuführen. Wenn Sie dennoch nicht daran weiterarbeiten und sich auch nicht in Helios abmelden, dann werde ich das Projekt entsprechend in Helios werten.
