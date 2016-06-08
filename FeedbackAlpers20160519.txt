@@ -1,6 +1,11 @@
 Wenn Sie an diesem Projekt weiterarbeiten wollen, pushen Sie bitte die neuen Inhalte:
 
-HTML-Teil: Die letzte relevante Änderung habe ich am 8. Februar gesehen.
-JS/PHP-Teil: Die letzte relevante Änderung habe ich am 11. Dezember gesehen.
+HTML-Teil: Die letzte relevante Ã„nderung habe ich am 8. Februar gesehen.
+JS/PHP-Teil: Die letzte relevante Ã„nderung habe ich am 11. Dezember gesehen.
 
-Update: Bitte beachten Sie, dass Sie sich Anfang des Semesters entschieden haben, dieses Projekt fortzuführen. Wenn Sie dennoch nicht daran weiterarbeiten und sich auch nicht in Helios abmelden, dann werde ich das Projekt entsprechend in Helios werten.
+Update: Bitte beachten Sie, dass Sie sich Anfang des Semesters entschieden haben, dieses Projekt fortzufÃ¼hren. Wenn Sie dennoch nicht daran weiterarbeiten und sich auch nicht in Helios abmelden, dann werde ich das Projekt entsprechend in Helios werten.
+
+- - - -  - - - - - - - - 
+Hallo Herr Alpers,
+
+ich habe mich damals abgemeldet und habe mich danach wieder angemeldet, um ein neues Projekt A anzufangen. Ich mÃ¶chte an diesem Projekt nicht weiterarbeiten und hatte es auch am Anfang des Semesters nicht vor.
