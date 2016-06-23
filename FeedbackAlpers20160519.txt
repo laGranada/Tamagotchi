@@ -9,3 +9,11 @@ Update: Bitte beachten Sie, dass Sie sich Anfang des Semesters entschieden haben
 Hallo Herr Alpers,
 
 ich habe mich damals abgemeldet und habe mich danach wieder angemeldet, um ein neues Projekt A anzufangen. Ich möchte an diesem Projekt nicht weiterarbeiten und hatte es auch am Anfang des Semesters nicht vor.
+
+Antw.:
+
+Vielen Dank für die Rückmeldung.
+
+Sie sind noch für die Studienleistung "Einführung Programmieren" im Wintersemester 15/16 also mit dem alten Projekt angemeldet. Da Sie sich aber dieses Semester für das "Projekt 1" angemeldet habe, werde ich beide Leistungsnachweise entsprechend des neuen Projekts eintragen und dieses Repository nicht weiter beachten.
+
+Ansonsten viel Erfolg bei den Klausuren.
