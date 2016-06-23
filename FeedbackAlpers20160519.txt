@@ -17,3 +17,6 @@ Vielen Dank für die Rückmeldung.
 Sie sind noch für die Studienleistung "Einführung Programmieren" im Wintersemester 15/16 also mit dem alten Projekt angemeldet. Da Sie sich aber dieses Semester für das "Projekt 1" angemeldet habe, werde ich beide Leistungsnachweise entsprechend des neuen Projekts eintragen und dieses Repository nicht weiter beachten.
 
 Ansonsten viel Erfolg bei den Klausuren.
+
+- - - - - - - - - - 
+Achso, das war mir nicht bewusst. Vielen Dank für die Änderung!
